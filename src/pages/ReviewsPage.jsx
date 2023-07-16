@@ -32,8 +32,6 @@ const ReviewsPage = () => {
 
             setReviewsDetails(response.data);
 
-            console.log(response.data);
-
         } catch(error) {
             toast.error(error.message);
         } finally {
@@ -44,7 +42,7 @@ const ReviewsPage = () => {
     fetchMovieData();
 
   }, [movieId]);
-  console.log(reviewsDetails);
+  
   return (
     <div>
       {reviewsDetails !== null &&
