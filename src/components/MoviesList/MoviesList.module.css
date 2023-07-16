@@ -1,0 +1,21 @@
+.movies_list {
+    padding-top: 20px;
+    padding-left: 0;
+    list-style: none;
+    border-top: 1px solid #000000;
+}
+
+.list_item {
+    margin-bottom: 5px; 
+}
+
+.list_item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #1f1f1f;
+    transition: 0.3s all ease;
+}
+
+.list_item a:hover {
+    color: #0bc6cc;
+}

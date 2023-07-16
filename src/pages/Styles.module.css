@@ -1,0 +1,124 @@
+.content {
+    padding: 0 20px 20px;
+}
+
+.back_btn {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 1.1em 2.2em;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(17, 110, 95);
+    transition: 0.3s all ease;
+}
+
+.back_btn:hover {
+    background-color: rgb(36, 122, 138);
+}
+
+.movie_details {
+    padding: 20px;
+}
+
+.movie_content {
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.movie_overview {
+    max-width: 400px;
+}
+
+.movie_content img {
+    box-shadow: 0 3px 50px  rgba(0, 0, 0, 0.1);
+}
+
+.movie_details a {
+    position: relative;
+    margin-right: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1f1f1f;
+    transition: 0.3s all ease;
+}
+
+.movie_details a:hover {
+    color: #0bc6cc;
+}
+
+.movie_details a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background-color: #0bc6cc;
+    transition: 0.3s all ease;
+}
+
+.movie_details a:hover::after {
+    width: 100%;
+}
+
+.actors_list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.actors_list .list_item {
+    flex-basis: calc((100% - 150px) / 6);
+}
+
+.actors_list .list_item .movie_poster {
+    width: 100%;
+}
+
+.reviews_list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.reviews_list .list_item {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.reviews_list .list_item:last-child {
+    border-bottom: none;
+}
+
+.search_page {
+    padding: 0 20px 20px;
+}
+
+.search_page input {
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.search_page button {
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.search_page button:hover,
+.search_page button:focus {
+    color: #fff;
+    background-color: #000;
+}
