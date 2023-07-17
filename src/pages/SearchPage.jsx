@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 import MoviesList from "components/MoviesList/MoviesList";
 import { useSearchParams } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
-import styles from 'pages/Styles.module.css'
+import styles from '../Styles.module.css'
 
 const SearchPage = () => {
     const [movies, setMovies] = useState([]);

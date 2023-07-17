@@ -5,7 +5,7 @@ import Loader from "components/Loader/Loader";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import MoviesList from "components/MoviesList/MoviesList";
-import styles from 'pages/Styles.module.css'
+import styles from '../Styles.module.css'
 
 const HomePage = () => {
     const [movies, setMovies] = useState([]);

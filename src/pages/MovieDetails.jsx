@@ -5,7 +5,7 @@ import axios from "axios";
 import Loader from "components/Loader/Loader";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import styles from 'pages/Styles.module.css'
+import styles from '../Styles.module.css'
 
 const CastPage = lazy(() => import('./CastPage'));
 const ReviewsPage = lazy(() => import('./ReviewsPage'));
